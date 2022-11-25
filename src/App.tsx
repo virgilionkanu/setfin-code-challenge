@@ -1,11 +1,16 @@
-import './styles/global.scss';
+import './App.scss';
+
+import { MainRoutes } from './Routes';
+import { Sidebar } from './pages/sidebar/components';
+
 
 export const App = () => {
-  // return (
-  //   <div className="App">
-  //     <h1>SETFIN teste</h1>
-  //   </div>
-  // );
-
-  return <h1>SETFIN, seja bem-vindo</h1>
+  return (
+    <div className="app">
+      {/**Sidebar */}
+      <Sidebar />
+      {/**Inner container */}
+      <MainRoutes />
+    </div>
+  );
 };

@@ -1,0 +1,25 @@
+.sidebar {
+  width: 200px;
+  background-color: #365262;
+  color: #fff;
+  padding-top: 200px;
+  padding-left: 20px;
+  height: 100vh;
+
+  .sidebar__items {
+    display: flex;
+    flex-direction: column;
+  
+    a {
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 40px;
+      text-decoration: none;
+    }
+
+    .sidebar_active {
+      color: aqua;
+      text-decoration: underline;
+    }
+  }
+}
