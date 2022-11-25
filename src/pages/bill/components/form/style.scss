@@ -1,0 +1,157 @@
+.form {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .first__row {
+      display: flex;
+      padding: 2rem 0 2rem 0;
+
+      label {
+        font-size: .8rem;
+        font-weight: bold;
+        margin-right: 2rem;
+      }
+
+      input {
+        color: #808080;
+        width: 15rem;
+        border: 1px solid #808080;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .second__row {
+      display: flex;
+      padding: 2rem 0 1rem 0;
+
+      label {
+        font-size: .8rem;
+        font-weight: bold;
+        margin-right: 2rem;
+      }
+
+      input {
+        width: 2rem;
+        margin-top: .3rem;
+        appearance: none;
+        display: block;
+        background-color: #DCDCDC;
+        border-radius: 1rem;
+      }
+
+      input::-webkit-slider-thumb {
+        appearance: none;
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        background-color: #008000;
+        border-radius: 50%;
+      }
+    }
+
+    .third__row {
+      display: flex;
+      padding: 2rem 0 2rem 0;
+
+      label {
+        font-size: .8rem;
+        font-weight: bold;
+        margin-right: 2rem;
+      }
+
+      input {
+        color: #808080;
+        width: 8rem;
+        border: 1px solid #808080;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .fourth__row {
+      display: flex;
+      padding: 2rem 0 2rem 0;
+
+      label {
+        font-size: .8rem;
+        font-weight: bold;
+        margin-right: 2rem;
+
+        select {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -ms-appearance: none;
+          appearance: none;
+          outline: 0;
+          box-shadow: 0;
+          background: 0;
+          background-image: none;
+        }
+
+        select::-ms-expand {
+          display: none;
+        }
+
+        .select {
+          display: flex;
+          position: relative;
+          overflow: hidden;
+          cursor: pointer;
+        }
+
+        .select::after {
+          content: '\25BC';
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 0 .2rem;
+          cursor: pointer;
+          pointer-events: none;
+          transition: .25s all ease;
+        }
+      }
+
+      input,
+      select {
+        color: #808080;
+        width: 20rem;
+        border: 1px solid #808080;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .btn {
+      display: flex;
+      justify-content: end;
+
+      button {
+        font-size: 1rem;
+        font-weight: bold;
+        width: 16rem;
+        padding: .5rem;
+        color: #DCDCDC;
+        background-color: #1b5d7d;
+        border: none;
+      }
+    }
+  }
+}

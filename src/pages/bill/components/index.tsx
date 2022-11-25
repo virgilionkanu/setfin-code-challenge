@@ -1,3 +1,5 @@
+import { Form } from './form/components';
+
 import '../style.scss';
 
 export const Bill = () => {
@@ -5,6 +7,8 @@ export const Bill = () => {
     <div className="bill">
       <h1>Contas a Pagar</h1>
       <p>Você está incluindo contas a pagar...</p>
+
+      <Form />
     </div>
   );
 };
