@@ -1,7 +1,7 @@
 Para rodar a aplicação siga os passos abaixo,
 
-1 - Executar comando "yarn install",
-2 - Executar comando "yarn dev"
+- Executar comando "yarn install"
+- Executar comando "yarn dev"
 
 Observaçōes:
 
